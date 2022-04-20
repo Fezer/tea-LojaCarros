@@ -4,7 +4,7 @@ const router = require("./src/routes/router");
 const mongoose = require("mongoose");
 
 try{
-    mongoose.connect("mongodb+srv://tadstea:tadstea@tea.ghjxm.mongodb.net/lojacarros?retryWrites=true&w=majority", {
+    mongoose.connect("***", {
         useNewUrlParser: true,
         useUnifiedTopology: true,
     });
