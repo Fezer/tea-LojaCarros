@@ -7,6 +7,7 @@ const VehicleModel = new mongoose.Schema({
     valor: Number,
     caracteristicas: [],
     vendido: Boolean,
+    dataVenda: Date,
 });
 
 module.exports = VehicleModel;
